@@ -217,21 +217,32 @@ a:hover, a:focus {
   background-color: #232323;
 }
 
-.footer h4 {
+.footer .container {
+  padding-top: 47px;
+}
+
+.footer .container h4 {
   color: #ffffff;
 }
 
-.footer ul {
+.footer .container ul {
   list-style: none;
+  padding: 0;
 }
 
-.footer ul a {
+.footer .container ul li {
+  line-height: 13px;
+}
+
+.footer .container ul a {
   color: #808080;
 }
 
 .footer-title {
   color: #ffffff;
   font-weight: bold;
+  text-align: center;
+  margin: 43px 0 20px;
 }
 
 @media (min-width: 576px) {

@@ -1,19 +1,32 @@
 .footer {
     background-color: $color-dark;
+    .container {
+    //    text-align: center;
+       padding-top: 47px;
+
+        h4 {
+            color: $color-light;
+        }
     
-    h4 {
-        color: $color-light;
-    }
-
-    ul {
-        list-style: none;
-
-        a {
-            color: #808080;
+        ul {
+            list-style: none;
+            padding: 0;
+             
+            li {
+                line-height: 13px;
+            }
+    
+            a {
+                color: #808080;
+            }
         }
     }
+    
+
     &-title {
         color: $color-light;
         font-weight: bold;
+        text-align: center;
+        margin: 43px 0 20px;
     }
 }
