@@ -238,6 +238,10 @@ a:hover, a:focus {
   color: #808080;
 }
 
+.footer .container ul a:hover, .footer .container ul a:focus {
+  color: #ffffff;
+}
+
 .footer-title {
   color: #ffffff;
   font-weight: bold;
