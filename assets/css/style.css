@@ -199,6 +199,10 @@ a:hover, a:focus {
   background-color: #df8a13;
 }
 
+.top-movies .thumbnail:hover h3 {
+  color: #ffffff;
+}
+
 .top-movies .thumbnail h3 {
   font-size: 1rem;
   font-weight: bold;
@@ -244,21 +248,24 @@ h2 {
 }
 
 .film-news {
+  padding-bottom: 40px;
   overflow: hidden;
+}
+
+.film-news-item:hover .thumbnail {
+  background-color: #df8a13;
+}
+
+.film-news-item:hover h3 {
+  color: #df8a13;
+}
+
+.film-news-item:hover .btn {
+  background-color: #df8a13;
 }
 
 .film-news img {
   width: 100%;
-}
-
-.film-news .thumbnail {
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
-}
-
-.film-news .thumbnail:hover {
-  background-color: #df8a13;
 }
 
 .film-news .btn {

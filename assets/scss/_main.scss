@@ -44,6 +44,10 @@
     }
     &:hover {
       background-color: $color-accent;
+
+      h3 {
+        color: $color-light;
+      }
     }
     h3 {
       font-size: 1rem;
@@ -89,18 +93,28 @@ h2 {
     @extend %stripes;
 }
 .film-news {
+  padding-bottom: 40px;
   overflow: hidden;
+  &-item {
+    &:hover {
+    .thumbnail {
+        background-color: $color-accent;
+      }
+      h3 {
+        color: $color-accent;
+      }
+  
+      .btn {
+        background-color: $color-accent;
+      }
+    }
+    }
   img {
     width: 100%;
-  }
-  .thumbnail {
-    transition: background-color 0.5s;
-    &:hover {
-      background-color: $color-accent;
-    }
-  }
+  } 
   .btn {
     float: right;
     margin-bottom: 37px;
   }
 }
+
