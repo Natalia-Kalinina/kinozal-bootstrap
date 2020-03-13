@@ -1,6 +1,19 @@
 .new-films {
+   overflow: hidden;
   .thumbnail {
     margin-bottom: 0;
+    padding: 10px 5px;
+    transition: background-color 0.5s;
+    img {
+      width: 100%;
+    }
+    &:hover {
+      background-color: $color-accent;
+      
+      h3 {
+        color: $color-light;
+      }
+    }
     h3 {
       font-size: 1rem;
       font-weight: bold;
@@ -20,8 +33,18 @@
   }
 }
 .top-movies {
+  overflow: hidden;
   .thumbnail {
     margin-bottom: 0;
+    padding: 10px 5px;
+    transition: background-color 0.5s;
+
+    img {
+      width: 100%;
+    }
+    &:hover {
+      background-color: $color-accent;
+    }
     h3 {
       font-size: 1rem;
       font-weight: bold;
@@ -38,5 +61,46 @@
     padding-left: $gap / 2;
     padding-right: $gap / 2;
     margin-bottom: $gap;
+  }
+}
+h1 {
+  font-family: $font-header;
+  font-size: 3rem;
+  margin: -10px 0 38px 0;
+  
+  span {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 1920px;
+      background-color: rgba($color-accent, 0.45);
+      bottom: 11px;
+      left: 105%;
+      height: 3px;
+    }
+  }
+}
+h2 { 
+    font-family: $font-header;
+    font-size: 2.5rem;
+    margin: 38px 0 45px 38px;
+    @extend %stripes;
+}
+.film-news {
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+  .thumbnail {
+    transition: background-color 0.5s;
+    &:hover {
+      background-color: $color-accent;
+    }
+  }
+  .btn {
+    float: right;
+    margin-bottom: 37px;
   }
 }

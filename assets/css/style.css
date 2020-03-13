@@ -2,6 +2,38 @@
   text-shadow: 0 0 5px black, 0 0 20px black;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-family: "PT Serif", serif;
+  margin-top: 0;
+  line-height: 0.8;
+  margin: 50px 0 50px 45px;
+}
+
+h2 span {
+  position: relative;
+}
+
+h2 span::before {
+  content: '';
+  position: absolute;
+  width: 1920px;
+  background-color: rgba(223, 138, 19, 0.45);
+  top: 16px;
+  right: 106%;
+  height: 3px;
+}
+
+h2 span::after {
+  content: '';
+  position: absolute;
+  width: 1920px;
+  background-color: rgba(223, 138, 19, 0.45);
+  bottom: 11px;
+  left: 105%;
+  height: 3px;
+}
+
 .navbar-inverse {
   background-color: #191919;
   border-color: transparent;
@@ -105,8 +137,28 @@ a:hover, a:focus {
   color: #ffffff;
 }
 
+.new-films {
+  overflow: hidden;
+}
+
 .new-films .thumbnail {
   margin-bottom: 0;
+  padding: 10px 5px;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.new-films .thumbnail img {
+  width: 100%;
+}
+
+.new-films .thumbnail:hover {
+  background-color: #df8a13;
+}
+
+.new-films .thumbnail:hover h3 {
+  color: #ffffff;
 }
 
 .new-films .thumbnail h3 {
@@ -127,8 +179,24 @@ a:hover, a:focus {
   margin-bottom: 15px;
 }
 
+.top-movies {
+  overflow: hidden;
+}
+
 .top-movies .thumbnail {
   margin-bottom: 0;
+  padding: 10px 5px;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.top-movies .thumbnail img {
+  width: 100%;
+}
+
+.top-movies .thumbnail:hover {
+  background-color: #df8a13;
 }
 
 .top-movies .thumbnail h3 {
@@ -147,6 +215,55 @@ a:hover, a:focus {
   padding-left: 7.5px;
   padding-right: 7.5px;
   margin-bottom: 15px;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-size: 3rem;
+  margin: -10px 0 38px 0;
+}
+
+h1 span {
+  position: relative;
+}
+
+h1 span::after {
+  content: '';
+  position: absolute;
+  width: 1920px;
+  background-color: rgba(223, 138, 19, 0.45);
+  bottom: 11px;
+  left: 105%;
+  height: 3px;
+}
+
+h2 {
+  font-family: "PT Serif", serif;
+  font-size: 2.5rem;
+  margin: 38px 0 45px 38px;
+}
+
+.film-news {
+  overflow: hidden;
+}
+
+.film-news img {
+  width: 100%;
+}
+
+.film-news .thumbnail {
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.film-news .thumbnail:hover {
+  background-color: #df8a13;
+}
+
+.film-news .btn {
+  float: right;
+  margin-bottom: 37px;
 }
 
 .vertical-slider {
@@ -213,6 +330,75 @@ a:hover, a:focus {
   background-color: #232323;
 }
 
+.site-news__item {
+  position: relative;
+  min-height: 85px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.site-news__item:last-child {
+  margin-bottom: 0;
+}
+
+.site-news__item:last-child::after {
+  display: none;
+}
+
+.site-news__item:hover .site-news__title a {
+  color: #df8a13;
+}
+
+.site-news__item:hover .site-news__img {
+  background-color: #df8a13;
+}
+
+.site-news__item::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  background-color: #dddddd;
+  height: 1px;
+  width: calc(100% - 85px);
+}
+
+.site-news__img {
+  float: left;
+  width: 75px;
+  margin: 0 10px 10px 0;
+  -webkit-transition: background-color 0.2s ease-in;
+  -o-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+
+.site-news__img img {
+  width: 100%;
+}
+
+.site-news__title {
+  margin-bottom: 10px;
+}
+
+.site-news__title a {
+  display: -webkit-box;
+  overflow: hidden;
+  height: 50px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  -webkit-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.site-news__date {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #dedede;
+}
+
 .footer {
   background-color: #232323;
 }
@@ -228,10 +414,6 @@ a:hover, a:focus {
 .footer .container ul {
   list-style: none;
   padding: 0;
-}
-
-.footer .container ul li {
-  line-height: 13px;
 }
 
 .footer .container ul a {
