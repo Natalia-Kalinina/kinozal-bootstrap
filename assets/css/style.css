@@ -273,6 +273,56 @@ h2 {
   margin-bottom: 37px;
 }
 
+.film-video {
+  overflow: hidden;
+}
+
+.film-video__item-info {
+  margin: 0 13px;
+}
+
+.film-video__well {
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+  font-size: 1.2rem;
+  margin-bottom: 38px;
+}
+
+.film-video .badge {
+  font-size: 0.8em;
+}
+
+.film-description {
+  overflow: hidden;
+}
+
+.reviews {
+  overflow: hidden;
+}
+
+.form {
+  overflow: hidden;
+}
+
+.form__comment {
+  min-height: 215px;
+}
+
+.form .btn {
+  font-size: 1.125rem;
+  float: right;
+  margin-bottom: 60px;
+}
+
+.panel-heading {
+  background-color: #df8a13;
+  color: #ffffff;
+}
+
+.glyphicon {
+  margin-right: 5px;
+}
+
 .vertical-slider {
   border-radius: 4px;
   overflow: hidden;

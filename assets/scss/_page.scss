@@ -1,0 +1,44 @@
+.film-video {
+    overflow: hidden;
+
+    &__item-info {
+        margin: 0 13px;
+    }
+
+    &__well {
+        text-align: center;
+        border-radius: 0 0 4px 4px;
+        font-size: 1.2rem;
+        margin-bottom: 38px;
+    }
+    .badge {
+        font-size: 0.8em;
+      }
+}
+.film-description {
+    overflow: hidden;
+}
+.reviews {
+    overflow: hidden;
+}
+.form {
+    overflow: hidden;
+
+    &__comment {
+        min-height: 215px;
+      }
+    
+      .btn {
+        font-size: 1.125rem;
+        float: right;
+        margin-bottom: 60px;
+      }
+}
+.panel-heading {
+    background-color: $color-accent;
+    color: $color-light
+  }
+
+  .glyphicon {
+    margin-right: 5px;
+  }
