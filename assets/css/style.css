@@ -20,7 +20,7 @@ h2 span::before {
   width: 1920px;
   background-color: rgba(223, 138, 19, 0.45);
   top: 16px;
-  right: 106%;
+  right: 104%;
   height: 3px;
 }
 
@@ -30,7 +30,7 @@ h2 span::after {
   width: 1920px;
   background-color: rgba(223, 138, 19, 0.45);
   bottom: 11px;
-  left: 105%;
+  left: 106%;
   height: 3px;
 }
 
@@ -143,7 +143,6 @@ a:hover, a:focus {
 
 .new-films .thumbnail {
   margin-bottom: 0;
-  padding: 10px 5px;
   -webkit-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
@@ -190,7 +189,6 @@ a:hover, a:focus {
 
 .top-movies .thumbnail {
   margin-bottom: 0;
-  padding: 10px 5px;
   -webkit-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
@@ -234,7 +232,7 @@ a:hover, a:focus {
 h1 {
   font-family: "PT Serif", serif;
   font-size: 3rem;
-  margin: -10px 0 38px 0;
+  margin: -10px 0 48px 0;
 }
 
 h1 span {
@@ -246,7 +244,7 @@ h1 span::after {
   position: absolute;
   width: 1920px;
   background-color: rgba(223, 138, 19, 0.45);
-  bottom: 11px;
+  bottom: 14px;
   left: 105%;
   height: 3px;
 }
@@ -254,11 +252,11 @@ h1 span::after {
 h2 {
   font-family: "PT Serif", serif;
   font-size: 2.5rem;
-  margin: 38px 0 45px 38px;
+  margin: 52px 0 51px 43px;
 }
 
 .film-news {
-  padding-bottom: 40px;
+  padding-bottom: 45px;
   overflow: hidden;
 }
 
@@ -274,13 +272,17 @@ h2 {
   background-color: #df8a13;
 }
 
+.film-news-item__text {
+  text-align: justify;
+}
+
 .film-news img {
   width: 100%;
 }
 
 .film-news .btn {
   float: right;
-  margin-bottom: 37px;
+  margin-bottom: 30px;
 }
 
 .film-video {
@@ -304,7 +306,7 @@ h2 {
   text-align: center;
   border-radius: 0 0 4px 4px;
   font-size: 1.2rem;
-  margin-bottom: 38px;
+  margin-bottom: 24px;
 }
 
 .film-video .badge {
@@ -316,7 +318,7 @@ h2 {
 }
 
 .film-description h2 {
-  margin-left: 51px;
+  margin-left: 46px;
 }
 
 .reviews {
@@ -332,7 +334,12 @@ h2 {
 }
 
 .reviews h2 {
-  margin: 69px 0 0 51px;
+  margin: 66px 0 0 46px;
+}
+
+.reviews .glyphicon {
+  color: #fff;
+  margin-right: 5px;
 }
 
 .reviews .panel-heading {
@@ -344,7 +351,7 @@ h2 {
 }
 
 .form h2 {
-  margin: 62px 0 0 48px;
+  margin: 65px 0 0 45px;
 }
 
 .form .form-1 {
@@ -363,11 +370,6 @@ h2 {
 
 .panel-heading {
   background-color: #df8a13;
-  color: #ffffff;
-}
-
-.glyphicon {
-  margin-right: 5px;
   color: #ffffff;
 }
 

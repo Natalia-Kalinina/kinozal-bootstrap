@@ -1,8 +1,8 @@
 .film-video {
-    overflow: hidden;
-    margin-bottom: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
 
-    
+
   h1 {
     font-size: 3rem;
     font-family: $font-header;
@@ -15,85 +15,99 @@
     }
   }
 
-    &__item-info {
-        margin: 0 13px;
-        @include xs {
-          font-size: 0.8rem;
-        }
-    }
+  &__item-info {
+    margin: 0 13px;
 
-    &__well {
-        text-align: center;
-        border-radius: 0 0 4px 4px;
-        font-size: 1.2rem;
-        margin-bottom: 38px;
+    @include xs {
+      font-size: 0.8rem;
     }
-    .badge {
-        font-size: 0.8em;
-  
-      }
+  }
+
+  &__well {
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+  }
+
+  .badge {
+    font-size: 0.8em;
+
+  }
 }
+
 .film-description {
-    overflow: hidden;
-    h2 {
-      margin-left: 51px;
-      @include xs {
-        font-size: 1.75rem;
-      }
+  overflow: hidden;
+
+  h2 {
+    margin-left: 46px;
+
+    @include xs {
+      font-size: 1.75rem;
     }
+  }
 }
+
 .reviews {
-    overflow: hidden;
+  overflow: hidden;
 
-    .panel {
-      margin-top: 50px;
-    }
-    .panel-1 {
-      margin-top: 10px;
-    }
-    h2 {
-      margin: 69px 0 0 51px;
-      @include xs {
-        font-size: 1.75rem;
-      }
-    }
+  .panel {
+    margin-top: 50px;
+  }
 
-    .panel-heading {
-      background-color: $color-accent;
-    }
-}
-.form {
-    overflow: hidden;
-    h2 {
-      margin: 62px 0 0 48px;
-      @include xs {
-        font-size: 1.75rem;
-      }
-    }
-    .form-1 {
-      margin-top: 48px;
-    }
+  .panel-1 {
+    margin-top: 10px;
+  }
 
-    &__comment {
-        min-height: 215px;
-      }
-    
-      .btn {
-        font-size: 1.125rem;
-        float: right;
-        margin-bottom: 60px;
-      }
-}
-.panel-heading {
-    background-color: $color-accent;
-    color: $color-light
+  h2 {
+    margin: 66px 0 0 46px;
+
+    @include xs {
+      font-size: 1.75rem;
+    }
   }
 
   .glyphicon {
+    color: #fff;
     margin-right: 5px;
-    color: $color-light;
   }
-  .names {
-    color: $color-light;
+
+  .panel-heading {
+    background-color: $color-accent;
   }
- 
+}
+
+.form {
+  overflow: hidden;
+
+  h2 {
+    margin: 65px 0 0 45px;
+
+    @include xs {
+      font-size: 1.75rem;
+    }
+  }
+
+  .form-1 {
+    margin-top: 48px;
+  }
+
+  &__comment {
+    min-height: 215px;
+  }
+
+  .btn {
+    font-size: 1.125rem;
+    float: right;
+    margin-bottom: 60px;
+  }
+}
+
+.panel-heading {
+  background-color: $color-accent;
+  color: $color-light
+}
+
+.names {
+  color: $color-light;
+}
