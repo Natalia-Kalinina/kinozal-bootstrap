@@ -275,6 +275,15 @@ h2 {
 
 .film-video {
   overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.film-video h1 {
+  font-size: 3rem;
+  font-family: "PT Serif", serif;
+  margin-top: 0;
+  line-height: 0.8;
+  margin-bottom: 52px;
 }
 
 .film-video__item-info {
@@ -296,12 +305,40 @@ h2 {
   overflow: hidden;
 }
 
+.film-description h2 {
+  margin-left: 51px;
+}
+
 .reviews {
   overflow: hidden;
 }
 
+.reviews .panel {
+  margin-top: 50px;
+}
+
+.reviews .panel-1 {
+  margin-top: 10px;
+}
+
+.reviews h2 {
+  margin: 69px 0 0 51px;
+}
+
+.reviews .panel-heading {
+  background-color: #df8a13;
+}
+
 .form {
   overflow: hidden;
+}
+
+.form h2 {
+  margin: 62px 0 0 48px;
+}
+
+.form .form-1 {
+  margin-top: 48px;
 }
 
 .form__comment {
@@ -321,6 +358,11 @@ h2 {
 
 .glyphicon {
   margin-right: 5px;
+  color: #ffffff;
+}
+
+.names {
+  color: #ffffff;
 }
 
 .vertical-slider {
@@ -523,5 +565,20 @@ h2 {
   .header-logo__title {
     font-size: 2.5rem;
     letter-spacing: 0.2em;
+  }
+  .film-video h1 {
+    font-size: 2rem;
+  }
+  .film-video__item-info {
+    font-size: 0.8rem;
+  }
+  .film-description h2 {
+    font-size: 1.75rem;
+  }
+  .reviews h2 {
+    font-size: 1.75rem;
+  }
+  .form h2 {
+    font-size: 1.75rem;
   }
 }

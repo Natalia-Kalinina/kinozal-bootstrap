@@ -1,8 +1,25 @@
 .film-video {
     overflow: hidden;
+    margin-bottom: 10px;
+
+    
+  h1 {
+    font-size: 3rem;
+    font-family: $font-header;
+    margin-top: 0;
+    line-height: 0.8;
+    margin-bottom: 52px;
+
+    @include xs {
+      font-size: 2rem;
+    }
+  }
 
     &__item-info {
         margin: 0 13px;
+        @include xs {
+          font-size: 0.8rem;
+        }
     }
 
     &__well {
@@ -13,16 +30,49 @@
     }
     .badge {
         font-size: 0.8em;
+  
       }
 }
 .film-description {
     overflow: hidden;
+    h2 {
+      margin-left: 51px;
+      @include xs {
+        font-size: 1.75rem;
+      }
+    }
 }
 .reviews {
     overflow: hidden;
+
+    .panel {
+      margin-top: 50px;
+    }
+    .panel-1 {
+      margin-top: 10px;
+    }
+    h2 {
+      margin: 69px 0 0 51px;
+      @include xs {
+        font-size: 1.75rem;
+      }
+    }
+
+    .panel-heading {
+      background-color: $color-accent;
+    }
 }
 .form {
     overflow: hidden;
+    h2 {
+      margin: 62px 0 0 48px;
+      @include xs {
+        font-size: 1.75rem;
+      }
+    }
+    .form-1 {
+      margin-top: 48px;
+    }
 
     &__comment {
         min-height: 215px;
@@ -41,4 +91,9 @@
 
   .glyphicon {
     margin-right: 5px;
+    color: $color-light;
   }
+  .names {
+    color: $color-light;
+  }
+ 
