@@ -19,6 +19,8 @@
       font-weight: bold;
       margin: 0;
       text-align: center;
+        @include text-shortener;
+    
     }
   }
 
@@ -33,6 +35,7 @@
   }
 }
 .top-movies {
+
   overflow: hidden;
   .thumbnail {
     margin-bottom: 0;
@@ -54,6 +57,7 @@
       font-weight: bold;
       margin: 0;
       text-align: center;
+        @include text-shortener;
     }
   }
 

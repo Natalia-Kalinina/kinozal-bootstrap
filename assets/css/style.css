@@ -166,6 +166,11 @@ a:hover, a:focus {
   font-weight: bold;
   margin: 0;
   text-align: center;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .new-films .row {
@@ -208,6 +213,11 @@ a:hover, a:focus {
   font-weight: bold;
   margin: 0;
   text-align: center;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .top-movies .row {
