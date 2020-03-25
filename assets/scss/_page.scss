@@ -2,6 +2,10 @@
   overflow: hidden;
   margin-bottom: 10px;
 
+  .embed-responsive {
+    border-radius: 4px;
+  }
+
 
   h1 {
     font-size: 3rem;
@@ -20,6 +24,7 @@
 
     @include xs {
       font-size: 0.8rem;
+      padding: 0 1px;
     }
   }
 
@@ -110,4 +115,10 @@
 
 .names {
   color: $color-light;
+}
+.site-search {
+  margin: -15px 0 45px;
+}
+.user-login {
+  margin-bottom: 60px;
 }
