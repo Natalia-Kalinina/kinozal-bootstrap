@@ -304,6 +304,7 @@ h2 {
 
 .film-video__item-info {
   margin: 0 13px;
+  white-space: nowrap;
 }
 
 .film-video__well {
@@ -314,7 +315,7 @@ h2 {
 }
 
 .film-video .badge {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .film-description {
@@ -592,10 +593,6 @@ h2 {
   }
   .film-video h1 {
     font-size: 2rem;
-  }
-  .film-video__item-info {
-    font-size: 0.8rem;
-    padding: 0 1px;
   }
   .film-description h2 {
     font-size: 1.75rem;

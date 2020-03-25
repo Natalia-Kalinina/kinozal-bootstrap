@@ -21,10 +21,9 @@
 
   &__item-info {
     margin: 0 13px;
-
+    white-space: nowrap;
     @include xs {
-      font-size: 0.8rem;
-      padding: 0 1px;
+      // font-size: 0.8rem;
     }
   }
 
@@ -36,7 +35,7 @@
   }
 
   .badge {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 
   }
 }
